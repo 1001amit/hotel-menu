@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+
+.menu-container {
+    background-color: transparent; 
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.menu-container h1 {
+    color: #fff; 
+}
+
+.menu-section {
+    margin-top: 20px;
+}
+
+.menu-section h2 {
+    color: #fff; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5); 
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-section ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+    display: flex;
+    justify-content: space-between;
+    color: #fff; 
+}
+
+.menu-section ul li .item {
+    text-align: left;
+    flex: 1;
+}
+
+.menu-section ul li .price {
+    text-align: right;
+}
